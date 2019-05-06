@@ -1,0 +1,13 @@
+\\VBOXSVR\School\periode04\testApi\testApi\bin\Debug\testApi.exe.config
+\\VBOXSVR\School\periode04\testApi\testApi\bin\Debug\testApi.exe
+\\VBOXSVR\School\periode04\testApi\testApi\bin\Debug\testApi.pdb
+\\VBOXSVR\School\periode04\testApi\testApi\bin\Debug\Newtonsoft.Json.dll
+\\VBOXSVR\School\periode04\testApi\testApi\bin\Debug\Newtonsoft.Json.xml
+\\VBOXSVR\School\periode04\testApi\testApi\obj\Debug\testApi.csprojAssemblyReference.cache
+\\VBOXSVR\School\periode04\testApi\testApi\obj\Debug\testApi.MainForm.resources
+\\VBOXSVR\School\periode04\testApi\testApi\obj\Debug\testApi.Properties.Resources.resources
+\\VBOXSVR\School\periode04\testApi\testApi\obj\Debug\testApi.csproj.GenerateResource.cache
+\\VBOXSVR\School\periode04\testApi\testApi\obj\Debug\testApi.csproj.CoreCompileInputs.cache
+\\VBOXSVR\School\periode04\testApi\testApi\obj\Debug\testApi.csproj.CopyComplete
+\\VBOXSVR\School\periode04\testApi\testApi\obj\Debug\testApi.exe
+\\VBOXSVR\School\periode04\testApi\testApi\obj\Debug\testApi.pdb
