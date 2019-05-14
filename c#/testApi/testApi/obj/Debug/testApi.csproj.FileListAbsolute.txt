@@ -11,3 +11,17 @@
 \\VBOXSVR\School\periode04\testApi\testApi\obj\Debug\testApi.csproj.CopyComplete
 \\VBOXSVR\School\periode04\testApi\testApi\obj\Debug\testApi.exe
 \\VBOXSVR\School\periode04\testApi\testApi\obj\Debug\testApi.pdb
+D:\1\Projecten\7 git\project-fifa\c#\testApi\testApi\bin\Debug\testApi.exe.config
+D:\1\Projecten\7 git\project-fifa\c#\testApi\testApi\bin\Debug\testApi.exe
+D:\1\Projecten\7 git\project-fifa\c#\testApi\testApi\bin\Debug\testApi.pdb
+D:\1\Projecten\7 git\project-fifa\c#\testApi\testApi\bin\Debug\Newtonsoft.Json.dll
+D:\1\Projecten\7 git\project-fifa\c#\testApi\testApi\bin\Debug\Newtonsoft.Json.xml
+D:\1\Projecten\7 git\project-fifa\c#\testApi\testApi\obj\Debug\testApi.csprojAssemblyReference.cache
+D:\1\Projecten\7 git\project-fifa\c#\testApi\testApi\obj\Debug\testApi.MainForm.resources
+D:\1\Projecten\7 git\project-fifa\c#\testApi\testApi\obj\Debug\testApi.Properties.Resources.resources
+D:\1\Projecten\7 git\project-fifa\c#\testApi\testApi\obj\Debug\testApi.csproj.GenerateResource.cache
+D:\1\Projecten\7 git\project-fifa\c#\testApi\testApi\obj\Debug\testApi.csproj.CoreCompileInputs.cache
+D:\1\Projecten\7 git\project-fifa\c#\testApi\testApi\obj\Debug\testApi.csproj.CopyComplete
+D:\1\Projecten\7 git\project-fifa\c#\testApi\testApi\obj\Debug\testApi.exe
+D:\1\Projecten\7 git\project-fifa\c#\testApi\testApi\obj\Debug\testApi.pdb
+D:\1\Projecten\7 git\project-fifa\c#\testApi\testApi\obj\Debug\testApi.newGamblerForm.resources

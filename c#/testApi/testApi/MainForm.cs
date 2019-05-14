@@ -25,7 +25,7 @@ namespace testApi
 
             try
             {
-                teamJson = downloader.DownloadString("http://localhost/php-Project/project-fifa-php/teamsAPI.php");
+                teamJson = downloader.DownloadString("http://localhost/7/project-fifa-php/teamsAPI.php");
             }
             catch (System.Net.WebException)
             {
@@ -40,6 +40,13 @@ namespace testApi
             {
                 listBox1.Items.Add(team[i].Name);
             }
+            
+        }
+
+        private void GokkerButton_Click(object sender, EventArgs e)
+        {
+            Form newGamblerForm = new Form();
+            newGamblerForm.Show();
             
         }
     }
