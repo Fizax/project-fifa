@@ -24,4 +24,3 @@ D:\1\Projecten\7 git\project-fifa\c#\testApi\testApi\obj\Debug\testApi.csproj.Co
 D:\1\Projecten\7 git\project-fifa\c#\testApi\testApi\obj\Debug\testApi.csproj.CopyComplete
 D:\1\Projecten\7 git\project-fifa\c#\testApi\testApi\obj\Debug\testApi.exe
 D:\1\Projecten\7 git\project-fifa\c#\testApi\testApi\obj\Debug\testApi.pdb
-D:\1\Projecten\7 git\project-fifa\c#\testApi\testApi\obj\Debug\testApi.newGamblerForm.resources

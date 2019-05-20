@@ -30,15 +30,14 @@
         {
             this.loadButton = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.gokkersGroupBox = new System.Windows.Forms.GroupBox();
+            this.GamblerTextbox = new System.Windows.Forms.TextBox();
             this.GokkerButton = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.gokkersGroupBox.SuspendLayout();
+            this.GokkerListBox = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // loadButton
             // 
-            this.loadButton.Location = new System.Drawing.Point(22, 153);
+            this.loadButton.Location = new System.Drawing.Point(22, 137);
             this.loadButton.Margin = new System.Windows.Forms.Padding(4);
             this.loadButton.Name = "loadButton";
             this.loadButton.Size = new System.Drawing.Size(248, 28);
@@ -57,50 +56,50 @@
             this.listBox1.Size = new System.Drawing.Size(248, 116);
             this.listBox1.TabIndex = 1;
             // 
-            // gokkersGroupBox
+            // GamblerTextbox
             // 
-            this.gokkersGroupBox.Controls.Add(this.label1);
-            this.gokkersGroupBox.Controls.Add(this.GokkerButton);
-            this.gokkersGroupBox.Location = new System.Drawing.Point(22, 241);
-            this.gokkersGroupBox.Name = "gokkersGroupBox";
-            this.gokkersGroupBox.Size = new System.Drawing.Size(351, 343);
-            this.gokkersGroupBox.TabIndex = 2;
-            this.gokkersGroupBox.TabStop = false;
-            this.gokkersGroupBox.Text = "Gokkers";
+            this.GamblerTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GamblerTextbox.Location = new System.Drawing.Point(22, 183);
+            this.GamblerTextbox.Multiline = true;
+            this.GamblerTextbox.Name = "GamblerTextbox";
+            this.GamblerTextbox.Size = new System.Drawing.Size(248, 32);
+            this.GamblerTextbox.TabIndex = 2;
             // 
             // GokkerButton
             // 
-            this.GokkerButton.Location = new System.Drawing.Point(6, 21);
+            this.GokkerButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GokkerButton.Location = new System.Drawing.Point(22, 221);
             this.GokkerButton.Name = "GokkerButton";
-            this.GokkerButton.Size = new System.Drawing.Size(181, 32);
-            this.GokkerButton.TabIndex = 0;
-            this.GokkerButton.Text = "Gokker toe voegen";
+            this.GokkerButton.Size = new System.Drawing.Size(248, 33);
+            this.GokkerButton.TabIndex = 3;
+            this.GokkerButton.Text = "maak een nieuwe gokker aan";
             this.GokkerButton.UseVisualStyleBackColor = true;
             this.GokkerButton.Click += new System.EventHandler(this.GokkerButton_Click);
             // 
-            // label1
+            // GokkerListBox
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 73);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.GokkerListBox.FormattingEnabled = true;
+            this.GokkerListBox.ItemHeight = 16;
+            this.GokkerListBox.Location = new System.Drawing.Point(22, 271);
+            this.GokkerListBox.Name = "GokkerListBox";
+            this.GokkerListBox.Size = new System.Drawing.Size(248, 180);
+            this.GokkerListBox.TabIndex = 4;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(391, 604);
-            this.Controls.Add(this.gokkersGroupBox);
+            this.ClientSize = new System.Drawing.Size(302, 487);
+            this.Controls.Add(this.GokkerListBox);
+            this.Controls.Add(this.GokkerButton);
+            this.Controls.Add(this.GamblerTextbox);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.loadButton);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
-            this.Text = "Form1";
-            this.gokkersGroupBox.ResumeLayout(false);
-            this.gokkersGroupBox.PerformLayout();
+            this.Text = "MainForm";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -108,9 +107,9 @@
 
         private System.Windows.Forms.Button loadButton;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.GroupBox gokkersGroupBox;
+        private System.Windows.Forms.TextBox GamblerTextbox;
         private System.Windows.Forms.Button GokkerButton;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ListBox GokkerListBox;
     }
 }
 

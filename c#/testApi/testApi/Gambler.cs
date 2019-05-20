@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace testApi
 {
-    class Gokker
+    public class Gambler
     {
-        public int balance { get; set; }
-        public string name { get; set; }
+        public string gamblers { get; set; }
+        public string Names { get; set; }
     }
 }

@@ -29,25 +29,27 @@ namespace testApi
             }
             catch (System.Net.WebException)
             {
-                MessageBox.Show("oeps... er is iets mis gegaan ");
+                MessageBox.Show("oeps... er is iets mis gegaan");
                 return;
             }
 
             Team[] team = JsonConvert.DeserializeObject<Team[]>(teamJson);
 
-
             for (int i = 0; i < team.Length; i++)
             {
                 listBox1.Items.Add(team[i].Name);
             }
-            
         }
 
         private void GokkerButton_Click(object sender, EventArgs e)
         {
-            Form newGamblerForm = new Form();
-            newGamblerForm.Show();
-            
+            string gokker = GamblerTextbox.Text;
+            Gambler[] gamblers = gokker;
+
+            for (int i = 0; i <gamblers.Length; i++)
+            {
+                GokkerListBox.Items.Add(gamblers[i].Names);
+            }
         }
     }
 }
