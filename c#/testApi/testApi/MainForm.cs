@@ -25,7 +25,7 @@ namespace testApi
 
             try
             {
-                teamJson = downloader.DownloadString("http://localhost/7/project-fifa-php/teamsAPI.php");
+                teamJson = downloader.DownloadString("http://localhost/php-Project/project-fifa-php/teamsAPI.php");
             }
             catch (System.Net.WebException)
             {
@@ -41,15 +41,39 @@ namespace testApi
             }
         }
 
-        private void GokkerButton_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            string gokker = GamblerTextbox.Text;
-            Gambler[] gamblers = gokker;
+            System.Net.WebClient downloader = new System.Net.WebClient();
+            string teamJson;
 
-            for (int i = 0; i <gamblers.Length; i++)
+            try
             {
-                GokkerListBox.Items.Add(gamblers[i].Names);
+                teamJson = downloader.DownloadString("http://localhost/php-Project/project-fifa-php/matchesApi.php");
+            }
+            catch (System.Net.WebException)
+            {
+                MessageBox.Show("oeps... er is iets mis gegaan");
+                return;
+            }
+
+            Match[] match = JsonConvert.DeserializeObject<Match[]>(teamJson);
+
+            for (int i = 0; i < match.Length; i++)
+            {
+                listBox2.Items.Add(match[i].team1);
+                listBox3.Items.Add(match[i].team2);
             }
         }
+
+        //private void GokkerButton_Click(object sender, EventArgs e)
+        //{
+        //    string gokker = GamblerTextbox.Text;
+        //    Gambler[] gamblers = gokker;
+
+        //    for (int i = 0; i < gamblers.Length; i++)
+        //    {
+        //        GokkerListBox.Items.Add(gamblers[i].Names);
+        //    }
+        //}
     }
 }
