@@ -10,6 +10,8 @@ namespace testApi
     {
         public string team1 { get; set; }
         public string team2 { get; set; }
+        public string score1 { get; set; }
+        public string score2 { get; set; }
 
         public override string ToString()
         {

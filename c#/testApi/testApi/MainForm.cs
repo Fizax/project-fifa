@@ -26,7 +26,7 @@ namespace testApi
 
             try
             {
-                teamJson = downloader.DownloadString("http://localhost/php-Project/project-fifa-php/teamsAPI.php");
+                teamJson = downloader.DownloadString("http://localhost/7/project-fifa-php/teamsAPI.php");
             }
             catch (System.Net.WebException)
             {
@@ -49,7 +49,7 @@ namespace testApi
 
             try
             {
-                teamJson = downloader.DownloadString("http://localhost/php-Project/project-fifa-php/matchesApi.php");
+                teamJson = downloader.DownloadString("http://localhost/7/project-fifa-php//matchesApi.php");
             }
             catch (System.Net.WebException)
             {
@@ -63,20 +63,11 @@ namespace testApi
             {
                 listBox2.Items.Add(match[i].team1);
                 listBox3.Items.Add(match[i].team2);
+                ScoreListBox.Items.Add(match[i].score1);
+                ScoreListBox2.Items.Add(match[i].score2);
             }
 
         }
-
-        //private void GokkerButton_Click(object sender, EventArgs e)
-        //{
-        //    string gokker = GamblerTextbox.Text;
-        //    Gambler[] gamblers = gokker;
-
-        //    for (int i = 0; i < gamblers.Length; i++)
-        //    {
-        //        GokkerListBox.Items.Add(gamblers[i].Names);
-        //    }
-        //}
 
         private void GokkerButton_Click_1(object sender, EventArgs e)
         {
