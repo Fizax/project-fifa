@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Newtonsoft.Json;
+using System.IO;
 
 namespace testApi
 {
@@ -63,6 +64,7 @@ namespace testApi
                 listBox2.Items.Add(match[i].team1);
                 listBox3.Items.Add(match[i].team2);
             }
+
         }
 
         //private void GokkerButton_Click(object sender, EventArgs e)
@@ -75,5 +77,21 @@ namespace testApi
         //        GokkerListBox.Items.Add(gamblers[i].Names);
         //    }
         //}
+
+        private void GokkerButton_Click_1(object sender, EventArgs e)
+        {
+            GokkerListBox.Items.Add(GamblerTextbox.Text);
+            Gambler[] testGamler = new Gambler[]
+            {
+                new Gambler(GokkerListBox.Text, 10000)
+            };
+
+            GokkerListBox.Text = JsonConvert.SerializeObject(testGamler);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
