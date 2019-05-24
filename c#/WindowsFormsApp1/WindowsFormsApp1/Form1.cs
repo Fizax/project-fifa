@@ -26,7 +26,7 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             System.Net.WebClient client = new System.Net.WebClient();
-            string read = client.DownloadString("http://localhost/php-Project/project-fifa-php/Games.php");
+            string read = client.DownloadString("http://localhost/7/project-fifa-php/Games.php");
             fetchedSchedule = JsonConvert.DeserializeObject<FetchSchedule>(read);
         }
 
@@ -36,6 +36,7 @@ namespace WindowsFormsApp1
         {
             Save save = new Save();
             save.name = Program.username;
+            save.coin = 1000;
 
             string saveJson = JsonConvert.SerializeObject(save);
             // Write the saved game to a text file
@@ -48,7 +49,7 @@ namespace WindowsFormsApp1
             string team = "team";
             string response;
 
-            var url = string.Format("http://localhost/php-Project/project-fifa-php/teamsAPI.php?name=team", team);
+            var url = string.Format("http://localhost/7/project-fifa-php/teamsAPI.php?name=team", team);
             using (var webClient = new WebClient())
             {
                 response = webClient.DownloadString(url);
@@ -86,7 +87,7 @@ namespace WindowsFormsApp1
             FetchScores fetchedScores;
 
             System.Net.WebClient client = new System.Net.WebClient();
-            string read3 = client.DownloadString("http://localhost/php-Project/project-fifa-php/matchesApi.php");
+            string read3 = client.DownloadString("http://localhost/7/project-fifa-php/matchesApi.php");
             fetchedScores = JsonConvert.DeserializeObject<FetchScores>(read3);
 
             string both = leftteamCombobox.Text + " - " + rightteamCombobox.Text;
@@ -151,9 +152,7 @@ public void betButton_Click(object sender, EventArgs e)
             Betting();
         }
 
-        private void leftteamCombobox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-        }
+        private void leftteamCombobox_SelectedIndexChanged(object sender, EventArgs e){}
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {

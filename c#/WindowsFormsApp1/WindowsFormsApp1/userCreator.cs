@@ -11,48 +11,19 @@ namespace WindowsFormsApp1
         public void random()
         {
             Random random = new Random();
-            int User = random.Next(1, 11);
+            int User = random.Next(1, 3);
             if(User == 1)
             {
-                Program.username = "Ronald";
+                Program.username = "Feyza";
             }
             if (User == 2)
             {
-                Program.username = "Tim";
+                Program.username = "Lorenzo";
             }
             if (User == 3)
             {
                 Program.username = "Elton";
             }
-            if (User == 4)
-            {
-                Program.username = "Kim";
-            }
-            if (User == 5)
-            {
-                Program.username = "Sophie";
-            }
-            if (User == 6)
-            {
-                Program.username = "Eva";
-            }
-            if (User == 7)
-            {
-                Program.username = "Mike";
-            }
-            if (User == 8)
-            {
-                Program.username = "Mark";
-            }
-            if (User == 9)
-            {
-                Program.username = "Fleur";
-            }
-            if (User == 10)
-            {
-                Program.username = "Yousli";
-            }
-
         }
     }
 }
