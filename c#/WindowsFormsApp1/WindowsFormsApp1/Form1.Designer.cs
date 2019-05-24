@@ -45,6 +45,9 @@
             this.leftteamGoalsTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.GokkerListBox = new System.Windows.Forms.ListBox();
+            this.GamblerTextbox = new System.Windows.Forms.TextBox();
+            this.GokkerButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // phpdataLabel
@@ -192,12 +195,41 @@
             this.label3.TabIndex = 15;
             this.label3.Text = "Wedstrijd:";
             // 
+            // GokkerListBox
+            // 
+            this.GokkerListBox.FormattingEnabled = true;
+            this.GokkerListBox.ItemHeight = 16;
+            this.GokkerListBox.Location = new System.Drawing.Point(633, 76);
+            this.GokkerListBox.Name = "GokkerListBox";
+            this.GokkerListBox.Size = new System.Drawing.Size(157, 212);
+            this.GokkerListBox.TabIndex = 16;
+            // 
+            // GamblerTextbox
+            // 
+            this.GamblerTextbox.Location = new System.Drawing.Point(633, 10);
+            this.GamblerTextbox.Name = "GamblerTextbox";
+            this.GamblerTextbox.Size = new System.Drawing.Size(157, 22);
+            this.GamblerTextbox.TabIndex = 17;
+            // 
+            // GokkerButton
+            // 
+            this.GokkerButton.Location = new System.Drawing.Point(633, 39);
+            this.GokkerButton.Name = "GokkerButton";
+            this.GokkerButton.Size = new System.Drawing.Size(157, 38);
+            this.GokkerButton.TabIndex = 18;
+            this.GokkerButton.Text = "voeg gokker toe";
+            this.GokkerButton.UseVisualStyleBackColor = true;
+            this.GokkerButton.Click += new System.EventHandler(this.GokkerButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Ivory;
-            this.ClientSize = new System.Drawing.Size(607, 317);
+            this.ClientSize = new System.Drawing.Size(816, 317);
+            this.Controls.Add(this.GokkerButton);
+            this.Controls.Add(this.GamblerTextbox);
+            this.Controls.Add(this.GokkerListBox);
             this.Controls.Add(this.favCombobox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -241,6 +273,9 @@
         private System.Windows.Forms.TextBox leftteamGoalsTextBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ListBox GokkerListBox;
+        private System.Windows.Forms.TextBox GamblerTextbox;
+        private System.Windows.Forms.Button GokkerButton;
     }
 }
 

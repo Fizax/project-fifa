@@ -166,5 +166,10 @@ public void betButton_Click(object sender, EventArgs e)
         private void rightteamCombobox_SelectedIndexChanged(object sender, EventArgs e)
         {
         }
+
+        private void GokkerButton_Click(object sender, EventArgs e)
+        {
+            GokkerListBox.Items.Add(GamblerTextbox.Text);
+        }
     }
 }
