@@ -61,8 +61,8 @@ namespace testApi
 
             for (int i = 0; i < match.Length; i++)
             {
-                listBox2.Items.Add(match[i].team1);
-                listBox3.Items.Add(match[i].team2);
+                Team1ListBox.Items.Add(match[i].team1);
+                Team2ListBox.Items.Add(match[i].team2);
                 ScoreListBox.Items.Add(match[i].score1);
                 ScoreListBox2.Items.Add(match[i].score2);
             }
@@ -74,15 +74,24 @@ namespace testApi
             GokkerListBox.Items.Add(GamblerTextbox.Text);
             Gambler[] testGamler = new Gambler[]
             {
-                new Gambler(GokkerListBox.Text, 10000)
+                new Gambler(GokkerListBox.Text, 1000)
             };
 
             GokkerListBox.Text = JsonConvert.SerializeObject(testGamler);
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void BetButton_Click(object sender, EventArgs e)
         {
 
+            if (CheatTextBox.Text == "GeenG31d")
+            {
+                MessageBox.Show("de cheat code is actief");
+
+            }
+            else 
+            {
+                Match match;
+            }
         }
     }
 }
