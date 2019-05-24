@@ -50,3 +50,17 @@ D:\1\Projecten\7 git\7 bas\Fifac-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Wi
 D:\1\Projecten\7 git\7 bas\Fifac-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
 D:\1\Projecten\7 git\7 bas\Fifac-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 D:\1\Projecten\7 git\7 bas\Fifac-\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+\\VBOXSVR\School\periode04\PR\project-fifa\c#\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+\\VBOXSVR\School\periode04\PR\project-fifa\c#\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+\\VBOXSVR\School\periode04\PR\project-fifa\c#\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+\\VBOXSVR\School\periode04\PR\project-fifa\c#\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+\\VBOXSVR\School\periode04\PR\project-fifa\c#\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+\\VBOXSVR\School\periode04\PR\project-fifa\c#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+\\VBOXSVR\School\periode04\PR\project-fifa\c#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+\\VBOXSVR\School\periode04\PR\project-fifa\c#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+\\VBOXSVR\School\periode04\PR\project-fifa\c#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.userNameGenerator.resources
+\\VBOXSVR\School\periode04\PR\project-fifa\c#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+\\VBOXSVR\School\periode04\PR\project-fifa\c#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+\\VBOXSVR\School\periode04\PR\project-fifa\c#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+\\VBOXSVR\School\periode04\PR\project-fifa\c#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+\\VBOXSVR\School\periode04\PR\project-fifa\c#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

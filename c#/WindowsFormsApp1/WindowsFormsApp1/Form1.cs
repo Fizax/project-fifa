@@ -26,7 +26,7 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             System.Net.WebClient client = new System.Net.WebClient();
-            string read = client.DownloadString("http://simonnuijten.nl/bracket2.php");
+            string read = client.DownloadString("http://localhost/php-Project/project-fifa-php/Games.php");
             fetchedSchedule = JsonConvert.DeserializeObject<FetchSchedule>(read);
         }
 
@@ -48,7 +48,7 @@ namespace WindowsFormsApp1
             string team = "team";
             string response;
 
-            var url = string.Format("http://simonnuijten.nl/teams.php?name=team", team);
+            var url = string.Format("http://localhost/php-Project/project-fifa-php/teamsAPI.php?name=team", team);
             using (var webClient = new WebClient())
             {
                 response = webClient.DownloadString(url);
@@ -86,7 +86,7 @@ namespace WindowsFormsApp1
             FetchScores fetchedScores;
 
             System.Net.WebClient client = new System.Net.WebClient();
-            string read3 = client.DownloadString("http://simonnuijten.nl/matchesApi.php");
+            string read3 = client.DownloadString("http://localhost/php-Project/project-fifa-php/matchesApi.php");
             fetchedScores = JsonConvert.DeserializeObject<FetchScores>(read3);
 
             string both = leftteamCombobox.Text + " - " + rightteamCombobox.Text;
